@@ -15,27 +15,16 @@ function wrongPassword() {
 	</script>";
 }
 
-if ($page == 1) {
-	if ($password == 'koolkat') {
+if ($page == 1 && $password == 'koolkat') {
 	header("Location: http://localhost:93/hackme/next.php");
 	exit();
 }
-	else {
-		wrongPassword();
-	}
-}
-
-elseif ($page == 2) {
-	# code...
-}
-
-
-else{
-	header('Location: ' . $_SERVER['HTTP_REFERER']);
+elseif ($page == 2 && $password == 'nerds4life') {
+	header("Location: http://localhost:93/hackme/javascriptisfun.php");
 	exit();
+}else{
+	wrongPassword();
 }
-
-
  ?>
 </body>
 </html>
