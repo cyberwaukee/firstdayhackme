@@ -22,8 +22,15 @@ if ($page == 1 && $password == 'koolkat') {
 elseif ($page == 2 && $password == 'nerds4life') {
 	header("Location: http://localhost:93/hackme/javascriptisfun.php");
 	exit();
-}else{
-	wrongPassword();
+}elseif ($page == 3 && substr($password, 0, 14) == '<script>alert(' && substr($password, strlen($password)-9, strlen($password)) == '</script>') {
+	echo 'yay';
+}
+else{
+	//wrongPassword();
+	echo "" + substr($password, 0, 14);
+	echo "<br>";
+	echo "$password";
+	//echo "" + substr($password, strlen($password)-9, strlen($password);
 }
  ?>
 </body>
