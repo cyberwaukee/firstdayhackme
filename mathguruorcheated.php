@@ -9,7 +9,7 @@
 <p><img src="poush.png"></p><br>
 <br>
 <form id="form" action="checkpassword.php" method="post">
-	Answer: <input type="text" name="psswrd">
+	Answer: <input type="password" name="psswrd">
 <input type="hidden" name="page" value="5">
 <input type="submit">
 <!-- http://manytools.org/hacker-tools/steganography-encode-text-into-image/ --> 
