@@ -23,14 +23,17 @@ elseif ($page == 2 && $password == 'nerds4life') {
 	header("Location: http://localhost:93/hackme/javascriptisfun.php");
 	exit();
 }elseif ($page == 3 && substr($password, 0, 14) == '<script>alert(' && substr($password, strlen($password)-9, strlen($password)) == '</script>') {
-	echo 'yay';
+	header("Location: http://localhost:93/hackme/describethenumbers.php");
+	exit();
+}elseif ($page == 4 && $password == '312211') {
+	header("Location: http://localhost:93/hackme/mathguruorcheated.php");
+	exit();
+}elseif ($page == 5 && $password == 'password') {
+	header("Location: http://localhost:93/hackme/destroyerofimages.php");
+	exit();
 }
 else{
-	//wrongPassword();
-	echo "" + substr($password, 0, 14);
-	echo "<br>";
-	echo "$password";
-	//echo "" + substr($password, strlen($password)-9, strlen($password);
+	wrongPassword();
 }
  ?>
 </body>

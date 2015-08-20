@@ -8,7 +8,7 @@
 in this website, see if you can put in a javascript alert function into the field below.</p>
 <form id="form" action="checkpassword.php" method="post">
 	Code: <input type="text" name="psswrd">
-<input type="hidden" name="page" value="1">
+<input type="hidden" name="page" value="3">
 <input type="submit">
 </form>
 </body>
