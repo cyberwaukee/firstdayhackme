@@ -12,7 +12,7 @@ Level 1 - You have to view the source of the web page in order to get the passwo
 
 Level 2 - See level 1 but it's in the javascript of the page (the javascript doesn't actually do anything fun-fact).
 
-Level 3 - Simply need to add an alert statement in the bot (EX `<script>alert('BLUH')</script>). You don't actully need the middle part, the script only looks for the <script>alert( and </script> to verify.` Pretty basic but it will work for what we need it to.
+Level 3 - Simply need to add an alert statement in the bot (EX `<script>alert('BLUH')</script>`). You don't actully need the middle part, the script only looks for the `<script>alert(` and `</script>` to verify. Pretty basic but it will work for what we need it to.
 
 Level 4 - The title of the page is a huge hint. Each number set describes the number set behind it. For example, if the first number in the set is '2', the second number would be '12' (one 2), the third would be '1112' (one 1 one 2).
 
