@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <style type="text/css">
-	.htmlbutton {
+	#htmlbutton {
 		visibility: hidden;
 	}
 </style>
