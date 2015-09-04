@@ -34,6 +34,8 @@ elseif ($page == 2 && $password == 'nerds4life') {
 }elseif ($page == 5 && $password == 'password') {
 	header("Location: http://$host$uri/destroyerofimages.php");
 	exit();
+}elseif ($page == 7 && $password == 'Jim') {
+	header("Location: http://$host$url/twocanbeasbadasone.php");
 }
 else{
 	wrongPassword();
